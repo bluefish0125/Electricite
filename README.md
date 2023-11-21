@@ -1,4 +1,4 @@
-# electricite
+# Can you explain the price of electricity?
 
 ### Challenge Goals
 The aim is to model the electricity price from weather, energy (commodities) and commercial data for two European countries - France and Germany. The problem here is to explain the electricity price with simultaneous variables and thus this is not a prediction problem. More precisely, the goal of this challenge is to learn a model that outputs from these explanatory variables a good estimation for the daily price variation of electricity futures contracts, in France and Germany. The metrics of evaluating performance is the spearman correlation coefficient. Spearman's correlation coefficient measures the strength and direction of association between two ranked variables. The challenge link is: https://challengedata.ens.fr/challenges/97
