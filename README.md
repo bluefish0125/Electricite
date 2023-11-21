@@ -1,7 +1,7 @@
 # electricite
 
 ### Challenge Goals
-The aim is to model the electricity price from weather, energy (commodities) and commercial data for two European countries - France and Germany. The problem here is to explain the electricity price with simultaneous variables and thus this is not a prediction problem. More precisely, the goal of this challenge is to learn a model that outputs from these explanatory variables a good estimation for the daily price variation of electricity futures) contracts, in France and Germany. The metrics of evaluating performance is the spearman correlation coefficient. The challenge link is: https://challengedata.ens.fr/challenges/97
+The aim is to model the electricity price from weather, energy (commodities) and commercial data for two European countries - France and Germany. The problem here is to explain the electricity price with simultaneous variables and thus this is not a prediction problem. More precisely, the goal of this challenge is to learn a model that outputs from these explanatory variables a good estimation for the daily price variation of electricity futures contracts, in France and Germany. The metrics of evaluating performance is the spearman correlation coefficient. The challenge link is: https://challengedata.ens.fr/challenges/97
 
 The benchark for this challenge consists in a simple linear regression, after a light cleaning of the data: The missing (NaN) values are simply filled with 0's and the COUNTRY column is dropped - namely we use the same model for France and Germany. The public score obtained with this benchmark is 15.86%.
 
